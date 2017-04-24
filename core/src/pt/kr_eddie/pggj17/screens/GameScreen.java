@@ -200,7 +200,7 @@ public class GameScreen extends ScreenAdapter {
 				float tw = w*0.75f;
 				Assets.font.getData().setScale(0.75f);
 				if (speech != null)	Assets.font.draw(batch, speech, w/2 - tw/2,h-16,tw,1,true);
-				if (tooltip != null)	Assets.font.draw(batch, tooltip, w/2 - tw/2,16,tw,1,true);
+				if (tooltip != null)	Assets.font.draw(batch, tooltip, w/2 - tw/2,32,tw,1,true);
 				
 			
 				// Fade in/out

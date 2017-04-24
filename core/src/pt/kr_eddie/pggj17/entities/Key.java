@@ -1,7 +1,6 @@
 package pt.kr_eddie.pggj17.entities;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Input;
 import com.badlogic.gdx.maps.tiled.objects.TiledMapTileMapObject;
 
 import pt.kr_eddie.pggj17.Assets;
@@ -41,7 +40,7 @@ public class Key extends Entity {
 				Assets.pickup.play();
 				remove = true;
 			}
-			level.game.tooltip = "Carrega \"X\" para apanhar a " + name;
+			level.game.tooltip = "Carrega \"Seta para Baixo\" para apanhar a " + name;
 		}
 
 	}

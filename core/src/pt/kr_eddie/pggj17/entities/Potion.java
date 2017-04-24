@@ -1,7 +1,6 @@
 package pt.kr_eddie.pggj17.entities;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Input;
 import com.badlogic.gdx.maps.tiled.objects.TiledMapTileMapObject;
 
 import pt.kr_eddie.pggj17.Assets;
@@ -33,15 +32,15 @@ public class Potion extends Entity {
 		case 0: 
 		default: 
 			this.player_scale = Player.BIG_SCALE; 
-			this.name = "poção verde";
+			this.name = "po\u00E7\u00E3o verde";
 			break;
 		case 1:
 			this.player_scale = Player.MEDIUM_SCALE; 
-			this.name = "poção rosa";
+			this.name = "po\u00E7\u00E3o rosa";
 			break;
 		case 2:
 			this.player_scale = Player.SMALL_SCALE; 
-			this.name = "poção azul";
+			this.name = "po\u00E7\u00E3o azul";
 			break;
 		}		
 	}
@@ -69,7 +68,7 @@ public class Potion extends Entity {
 					Assets.powerup.play();
 					value = 10;
 				}
-				level.game.tooltip = "Carrega \"X\" para beber a " + name;
+				level.game.tooltip = "Carrega \"Seta para Baixo\" para beber a " + name;
 			}
 		}
 	}

@@ -1,7 +1,6 @@
 package pt.kr_eddie.pggj17.level;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Input;
 import com.badlogic.gdx.maps.objects.RectangleMapObject;
 
 import pt.kr_eddie.pggj17.Main;
@@ -45,7 +44,8 @@ public class Door {
 				if (targetLevel == null && targetSpawn != null) level.gotoLevel(level.name, targetSpawn);
 				if (targetLevel != null) level.gotoLevel(targetLevel, targetSpawn);
 			}	
-			else level.game.tooltip = "Carrega \"X\" para entrar";
+			else level.game.tooltip = "Carrega \"Seta para Baixo\" para entrar";
+
 		} else {
 			level.game.tooltip = "Esta porta precisa da " + key + ".";
 		}
