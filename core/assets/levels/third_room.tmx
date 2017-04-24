@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextobjectid="4">
+ <tileset firstgid="1" name="tilesheet" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="../tilesheet.png" width="512" height="512"/>
+ </tileset>
+ <layer name="main" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0sENABAQRNFVHCpABei/Ay4KWNlkE/7hn99hJohIcK45hY+Pj4/v51d8fHx8/G/9eZGVX3ZRWTL2tVltdvyubBjvny965f/eLTu3OBQ=
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="2" type="spawn" x="64" y="960" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

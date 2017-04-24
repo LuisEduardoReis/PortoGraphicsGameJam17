@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="32" tilewidth="32" tileheight="32" nextobjectid="11">
+ <properties>
+  <property name="music" value="start"/>
+ </properties>
+ <tileset firstgid="1" name="tilesheet" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="../tilesheet.png" width="512" height="512"/>
+ </tileset>
+ <layer name="background" width="100" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt17tSwzAQBVC3AUImZSBAHSBQh2cNfAHJ//8Ht8kMhWytVrtrOXOLUzkjO9qXtOy6bklELi5gDpewMFpzBy/wmvndDM7gvIF9aMUabuAW7ozi9wXf8JNZawVXcG0QN4+8mgJJ/H5hD4fMWhu4hweDuPV9Vws1ONVceYQtPMGzIm6lsZTuk7T/luZK697gHT7g02jNoVhK90naf0vVxllC2h+mVMPS/lvKK87/SWe0RQ2XxjQiH6PiLP3vNb3+SFpjpTGNyMco2nzum9FDz6U1Vsqr7/TR1KN3H8/N6NRzixprgaYea/p4a/3YW2nuRtejJv7R5yrL941xBjmS5P5Q/PtmsvQ/5eZOxB563O2131N7Fqmdyam5El1bXucKjdre5zGTh3LLI5cjzxVjzuLUu2v3U5PLLZ1HLO5G2v6Rendtb9DksmYPvGJocRbTzqbUu8e4c2j24JTu+Kcg+k5BRERERERERDR1f7ol9BE=
+  </data>
+ </layer>
+ <layer name="middle" width="100" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzrkSAUEYReF5XGtuzTHk1twaYFCWxCN4IycQKwLVo/qcqi/5u4ObJGZmZmZmZmZmZmZmZpb3CiiihDIqqAZdFHc11NFAEy20gy6Kuw666CFFH4Ogi+JuiBHGmGCKWdBFcTfHAkussMYm6KL/74gtdtgjw+F1P33wfsYFV9ze/P32/uvuypWHJEmSJClKT6BHVV4=
+  </data>
+ </layer>
+ <layer name="foreground" width="100" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzsEJADAIBEH7LycPbc88rMEQmIHlvhcBAAAAAAAAAMCGvNXsefwFAAAA+EsDbQYC1g==
+  </data>
+ </layer>
+ <layer name="main" width="100" height="32" visible="0" opacity="0.23">
+  <data encoding="base64" compression="zlib">
+   eJzt2MEJACAMBEHtv2k7MD9ZZAaugewvawEAAADM9uNx9/JGesz0aNGjRY8WPVr0aNGjRY8WPVr0aNGjxf8KAACA3x2N/QBP
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="2" name="default" type="spawn" x="1632" y="672" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="5" type="textbox" x="1312" y="320" width="896" height="416">
+   <properties>
+    <property name="text" value="Obrigado por jogar!"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

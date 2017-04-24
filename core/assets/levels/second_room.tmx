@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="32" tileheight="32" nextobjectid="12">
+ <properties>
+  <property name="music" value="start"/>
+ </properties>
+ <tileset firstgid="1" name="tilesheet" tilewidth="32" tileheight="32" tilecount="1024">
+  <image source="../tilesheet.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="tilesheet2" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="../tilesheet2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1281" name="spritesheet" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="../spritesheet.png" width="512" height="512"/>
+ </tileset>
+ <layer name="main" width="64" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0TdOg0EQhuE17AUIFzBwAcIFCBcgXABuADcAk1qCbVoyLZmWTEt2a2yCoCIjaHi7dfNLSDOFxT/Fo9mZYlajL+GcSxhjjDHGmL/xzlWgEt6HXnseVcX7hfdXsaMaNaj1odeeR1Xpfun9SXbUoR4NPvTa86gq3S+9v5EdTWhGiw+99jyqSvdb/pa/5W/5W/6Wv+Vv+Vv+ln+55D+IIaQwjBGMYgzjMch/ApOYwjTSyCCLmRjkP4s5zGMBi1jCMlZikP8q1rCODWxiC9vYKZP8W9nRhnZ0+NBrzHexh30c4BBHOMaJ0r/S+zvZ0YVu9PjQa8xPcYZzXOASV7hGTulf6f297OjDI++nkl6j5nGDAoq4xR3u8aD0j/T+fnYM4Jv3T0mvUZ/xgle84R0f+MSX0j/S+/+DX9ML+pU=
+  </data>
+ </layer>
+ <layer name="foreground" width="64" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzScOgFAAwFASpmd6pmfe/2RUf4Xlpy+pbpJIkiRJkiRJkiRJ+iKljHIqqKQq4m+opoZa6qinIeJvaKSJZlpopS3ib2ing0666KYn4u8fvTp0BYk=
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="4" type="spawn" x="560" y="960" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="6" type="key" gid="1300" x="800" y="864" width="64" height="64">
+   <properties>
+    <property name="i" value="0"/>
+   </properties>
+  </object>
+  <object id="7" type="big-potion" gid="1297" x="1568" y="992" width="32" height="32"/>
+  <object id="8" type="medium-potion" gid="1298" x="1760" y="864" width="64" height="64"/>
+  <object id="10" type="door" x="1216" y="736" width="256" height="256">
+   <properties>
+    <property name="key" value="chave vermelha"/>
+    <property name="targetLevel" value="end"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

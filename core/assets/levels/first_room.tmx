@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="32" tileheight="32" nextobjectid="11">
+ <properties>
+  <property name="music" value="start"/>
+ </properties>
+ <tileset firstgid="1" name="tilesheet" tilewidth="32" tileheight="32" tilecount="1024">
+  <image source="../tilesheet.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="spritesheet" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="../spritesheet.png" width="512" height="512"/>
+ </tileset>
+ <layer name="main" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYETDh4D4MBAfwSJHDzxq/8i2/zwQX4DStGATsv8+ED+A0rRgj9o/av9gtv89EH+A0rRgE7L/P43xQJRpgxUDAFyDy+8=
+  </data>
+ </layer>
+ <layer name="foreground" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApQwSsgfo1F/C0QvyNBPS5xQuAXEP/GIv4XiP+RoB6X+ChgYAAAmWIPNQ==
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="1" type="spawn" x="192" y="32" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="2" type="door" x="224" y="384" width="64" height="64"/>
+  <object id="6" type="door" x="608" y="384" width="64" height="64">
+   <properties>
+    <property name="key" value="chave vermelha"/>
+    <property name="targetLevel" value="second_room"/>
+   </properties>
+  </object>
+  <object id="7" type="door" x="800" y="384" width="64" height="64"/>
+  <object id="10" type="key" gid="1044" x="736" y="448" width="32" height="32">
+   <properties>
+    <property name="i" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

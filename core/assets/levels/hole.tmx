@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="100" tilewidth="32" tileheight="32" nextobjectid="7">
+ <properties>
+  <property name="music" value="fall"/>
+ </properties>
+ <tileset firstgid="1" name="tilesheet" tilewidth="32" tileheight="32" tilecount="1024">
+  <image source="../tilesheet.png" width="512" height="512"/>
+ </tileset>
+ <layer name="background" width="16" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzty6ENACAQBMHrvyygge8IJCEEixmxbqeS1FFb9a1xeV7xPM/zPM/zPM/zPM/zPM/zPM//9BPXUf8l
+  </data>
+ </layer>
+ <layer name="foreground" width="16" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztlzEOwDAIA/P/X6RN+87sLChtg23obZlAAh9Ka3x0cP0bXJ8N9DyiGeZ9Qbp4TrV5eRzoBoI50Q0YVvdRLW9ssOVf/Z7ae5CdbL5k8+Fu2PY12uds/lMnmw881O/V1/Oqlqe398L6js3Hu6m2Lx5of6r5LFte/v+vFtn8FZ1/tO9WmAF6Fas=
+  </data>
+ </layer>
+ <layer name="main" width="16" height="100" visible="0" opacity="0.22">
+  <data encoding="base64" compression="zlib">
+   eJztyzEOADAIAzH4/6e7Ax2QGH1Stjiil8M21T/P8zzP8zzP8zzP8zzP8zzP8/yFr/v1ACvOAM8=
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <properties>
+   <property name="targetLevel" value="test"/>
+  </properties>
+  <object id="2" name="default" type="spawn" x="224" y="192" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="5" type="door" x="160" y="2464" width="160" height="128">
+   <properties>
+    <property name="onTouch" value="true"/>
+    <property name="targetLevel" value="first_room"/>
+   </properties>
+  </object>
+  <object id="6" type="textbox" x="128" y="0" width="224" height="3232">
+   <properties>
+    <property name="text" value="Aaaaaaaaaaaaaaaaaaaaaaaahhh!!!"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
